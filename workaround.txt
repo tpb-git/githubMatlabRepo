@@ -1,0 +1,2 @@
+There is a workaround to prevent uigetfile and uiputfile from minimizing the app. Please add
+the following matlab code to your callback after uigetfile is invoked - figure(app.UIFigure).
